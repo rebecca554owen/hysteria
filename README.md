@@ -43,7 +43,7 @@ EOF
 version: "3.9"
 services:
   hysteria:
-    image: ghcr.io/wo5zhidaoa/hysteria:latest
+    image: ghcr.io/rebecca554owen/hysteria:latest
     container_name: hysteria
     restart: always
     network_mode: "host"
