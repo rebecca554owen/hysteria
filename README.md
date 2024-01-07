@@ -36,10 +36,9 @@ Finalshell 注意：直接新建文件，复制粘贴过去，用终端粘贴不
 cd hysteria
 ```
 
----配置文件docker-compose.yml参考
+---在ssh 终端复制命令写入docker-compose.yml 文件
 ```
-cat > docker-compose.yml <<
-EOF
+cat > docker-compose.yml << EOF
 version: "3.9"
 services:
   hysteria:
